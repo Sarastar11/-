@@ -16,7 +16,7 @@ let taxes = 0.10 * price;
 document.getElementById("taxes").innerHTML = taxes + "  :نسبة الضرايب";
 
 let total = taxes + price;
-document.getElementById("total").innerHTML = total + "   :سعر البيع للعميل بعد اضافة الضرائب";
+document.getElementById("total").innerHTML = total + ":سعر البيع للعميل بعد اضافة الضرائب";
 
 function refresh() {
     window.location.reload();
